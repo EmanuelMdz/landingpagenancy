@@ -1,0 +1,32 @@
+html #root {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(255, 252, 243);
+  margin: 0px;
+  padding: 0px;
+}
+body.moon {
+  background-color: rgb(51, 51, 51) !important;
+}
+body.moon h1 {
+  color: rgb(234, 231, 231);
+}
+body.moon span {
+  color: rgb(234, 231, 231);
+}
+
+body.moon p {
+  color: rgb(234, 231, 231);
+}
+body.moon a {
+  color: rgb(234, 231, 231);
+}
+body.moon button {
+  color: rgb(234, 231, 231);
+  border-color: white;
+}
+body.moon button.card__link:hover {
+  background: linear-gradient(40deg, rgb(58, 58, 58), rgb(87, 87, 87));
+}

@@ -1,0 +1,149 @@
+.aboutme__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 15%;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 500px;
+}
+.section h3 {
+  background-color: rgb(38, 35, 35);
+  color: rgb(255, 252, 243);
+  box-shadow: 5px 5px 5px rgb(180, 180, 180);
+}
+body.moon .section h3 {
+  box-shadow: 5px 5px 5px rgb(33, 33, 33);
+}
+.section p {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* ------------CONTACTO----------- */
+
+.gmail_image img {
+  width: 30px;
+}
+.gmail_image {
+  width: 310px;
+}
+.gmail {
+  font-size: 14px;
+}
+.cel_image img {
+  width: 25px;
+}
+.cel_image {
+  width: 310px;
+}
+.cel {
+  font-size: 14px;
+}
+.git img {
+  width: 35px;
+}
+.link img {
+  width: 35px;
+}
+
+/* ----container---- */
+
+.datos_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  color: white;
+  flex-wrap: wrap;
+  height: 100px;
+  align-items: center;
+}
+.father {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(38, 35, 35);
+  width: 100%;
+  padding-bottom: 40px;
+  color: white;
+}
+
+/* ----text---- */
+.text_type span {
+  font-weight: 600;
+  font-size: 30px;
+}
+.text_type {
+  margin: 15px;
+}
+.derechos {
+  margin-top: 30px;
+  font-size: 11px;
+}
+.link p {
+  margin: 0%;
+}
+.git p {
+  margin: 0%;
+}
+.link img:hover {
+  width: 40px;
+}
+.git img:hover {
+  width: 40px;
+}
+@media (max-width: 690px) {
+  .datos_container {
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+  }
+  .gmail_image {
+    width: auto;
+  }
+  .cel_image {
+    width: auto;
+  }
+  .g {
+    width: auto;
+    margin-bottom: 15px;
+  }
+  .c {
+    width: auto;
+    margin-top: 15px;
+  }
+  .git {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 332px) {
+  .gmail {
+    font-size: 9px;
+  }
+  .cel {
+    font-size: 9px;
+  }
+  .gmail_image {
+    width: auto;
+  }
+  .cel_image {
+    width: auto;
+  }
+  .g {
+    width: auto;
+    margin-bottom: 15px;
+  }
+  .c {
+    width: auto;
+    margin-top: 15px;
+  }
+  .git {
+    margin-bottom: 15px;
+  }
+}

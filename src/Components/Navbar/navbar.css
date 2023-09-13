@@ -1,0 +1,116 @@
+.navbar_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(66 65 65 / 17%);
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  top: 0px;
+  backdrop-filter: blur(3px);
+}
+body.moon .navbar_container {
+  background-color: rgb(255, 252, 243 / 8);
+}
+.logo {
+  width: 60px;
+}
+.links_navbar {
+  display: flex;
+}
+.links_navbar a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin-right: 20px;
+  font-size: medium;
+  cursor: pointer;
+  padding: 10px;
+}
+.links_navbar a:hover {
+  background-color: rgba(0, 0, 0, 0.187);
+}
+.button_contacto {
+  color: rgb(21, 21, 21);
+  padding: 9px;
+  width: 100px;
+  border-color: black;
+  background-color: transparent;
+  border-radius: 15px;
+  font-size: medium;
+  border-style: none;
+}
+.button_contacto:hover {
+  cursor: pointer;
+  background: rgba(235, 235, 235, 0.479);
+}
+
+/* ---MediaButton--- */
+.media_menu {
+  display: none;
+  margin-right: 0px;
+}
+.media_menu img {
+  width: 20px;
+}
+.media_menu button {
+  background-color: transparent;
+  border-style: none;
+}
+.media_menu_close {
+  display: none;
+}
+.media_menu_close {
+  background-color: transparent;
+  border-style: none;
+  width: 100%;
+  text-align: right;
+}
+.media_menu_close img {
+  width: 20px;
+  margin-bottom: 5px;
+}
+@media (max-width: 560px) {
+  .media_menu {
+    display: block;
+  }
+  .media_menu_close {
+    display: block;
+  }
+  .links_navbar {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .links_navbar {
+    flex-direction: column;
+    position: relative;
+    top: 526px;
+    margin-left: auto;
+    background-color: rgb(66, 65, 65);
+    height: 71rem;
+    padding: 30px;
+    padding-top: 90px;
+    padding-right: 0px;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+  }
+  .links_navbar.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  .media_menu.visible {
+    display: none;
+  }
+  .links_navbar a {
+    padding: 3px;
+    font-size: 16px;
+    text-align: end;
+    color: white;
+  }
+  .navbar_container {
+    height: 83px;
+    justify-content: space-between;
+  }
+}
+body.moon .button_contacto:hover {
+  background: rgba(92, 92, 92, 0.479);
+}
