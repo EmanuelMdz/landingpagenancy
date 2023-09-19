@@ -13,21 +13,21 @@ export const Card = ({ title, p, project, button }) => {
       {/* ---Images---- */}
       <div className="card__image">
         {project == "1" ? (
-          <img
-            src="https://nintenduo.com/wp-content/uploads/2023/01/Pokemon-Famosos-Mundo-00-1200x900.webp"
-            alt=""
-          />
+          <img src="../images/card1.png" alt="" />
         ) : project == "2" ? (
-          <img
-            src="https://shots.codepen.io/username/pen/MxeJJN-800.jpg?version=1604607599"
-            alt=""
-          />
+          <img src="../images/card1.png" alt="" />
         ) : project == "3" ? (
-          <img src="../images/TODO LIST.png" alt="" />
+          <img src="../images/card1.png" alt="" />
         ) : project == "4" ? (
-          <img src="../images/Flex.png" alt="" />
+          <img src="../images/card1.png" alt="" />
         ) : project == "5" ? (
-          <img src="../images/card.png" alt="" />
+          <img src="../images/card1.png" alt="" />
+        ) : project == "6" ? (
+          <img src="../images/card1.png" alt="" />
+        ) : project == "7" ? (
+          <img src="../images/card1.png" alt="" />
+        ) : project == "8" ? (
+          <img src="../images/card1.png" alt="" />
         ) : (
           <div></div>
         )}
@@ -60,6 +60,18 @@ export const Card = ({ title, p, project, button }) => {
             <button className="card__link">{button}</button>
           </a>
         ) : project == "5" ? (
+          <a href="https://cardvalidation-i8pc.vercel.app/" target="_blank">
+            <button className="card__link">{button}</button>
+          </a>
+        ) : project == "6" ? (
+          <a href="https://cardvalidation-i8pc.vercel.app/" target="_blank">
+            <button className="card__link">{button}</button>
+          </a>
+        ) : project == "7" ? (
+          <a href="https://cardvalidation-i8pc.vercel.app/" target="_blank">
+            <button className="card__link">{button}</button>
+          </a>
+        ) : project == "8" ? (
           <a href="https://cardvalidation-i8pc.vercel.app/" target="_blank">
             <button className="card__link">{button}</button>
           </a>

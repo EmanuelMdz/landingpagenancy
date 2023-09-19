@@ -14,7 +14,7 @@ body.moon .navbar_container {
   background-color: rgb(255, 252, 243 / 8);
 }
 .logo {
-  width: 60px;
+  width: 200px;
 }
 .links_navbar {
   display: flex;

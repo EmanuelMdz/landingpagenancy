@@ -55,7 +55,7 @@ export const Navbar = ({ theme }) => {
         >
           Cursos
         </Link>
-        <Link
+        {/* <Link
           onClick={closeMenu}
           to="aboutme"
           spy={true}
@@ -64,7 +64,7 @@ export const Navbar = ({ theme }) => {
           duration={350}
         >
           Sobre Mi
-        </Link>
+        </Link> */}
         <Link
           onClick={closeMenu}
           to="contacto"

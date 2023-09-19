@@ -20,7 +20,6 @@ function App() {
       <Navbar theme={theme}></Navbar>
       <Main theme={theme} setTheme={setTheme}></Main>
       <Cards theme={theme} setTheme={setTheme}></Cards>
-      <AboutMe></AboutMe>
       <Contacto></Contacto>
     </>
   );

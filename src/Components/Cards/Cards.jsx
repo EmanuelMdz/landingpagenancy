@@ -6,38 +6,56 @@ export const Cards = () => {
   return (
     <div id="proyectos" className="seccion__project__container">
       <a href="#projects">
-        <h1>Proyectos</h1>
+        <h1>Información de cursos</h1>
       </a>
       <div className="cards__container" id="projects">
         <Card
           project="1"
-          title="Pokedex API"
-          p="Proyecto en el cual se utilizó la API de pokemones para hacer una pokedex totalmente funcional"
-          button="Ir al Proyecto"
+          title="Trauma y Abuso"
+          p="Descubre como Intervenir en el Trauma del Abuso y sus secuelas"
+          button="Obtener Información"
         ></Card>
         <Card
           project="2"
-          title="Fylo"
-          p="Fylo  es un proyecto para practicar el desarrollo front-end de una web moderna en react"
-          button="Ir al Proyecto"
+          title="Pareja, Familia y Trauma "
+          p="Marca la diferencia en tu intervención en violencia intrafamiliar"
+          button="Obtener Información"
         ></Card>
         <Card
           project="3"
-          title="TODO"
-          p="TODO es un proyecto hecho en react, cuenta con funcionalidades como drag and drop, ordnar, filtrados y modo nocturno "
-          button="Ir al Proyecto"
+          title="Infancias y Trauma"
+          p="Transforma tu intervención desde la Teoría del Trauma"
+          button="Obtener Información"
         ></Card>
         <Card
           project="4"
-          title="FLEX"
-          p="Flex es un proyecto que programe al comenzar con HTML y CSS, es bastante visual y tiene funciones como el modal en Iniciar Sesión "
-          button="Ir al Proyecto"
+          title="Patologías Psiquiátricas y su tratamiento Farmacológico "
+          p="Alcanza una comprensión profunda desde la práctica clínica."
+          button="Obtener Información"
         ></Card>
         <Card
           project="5"
-          title="CARD"
-          p="Es un proyecto en el cual mediante JavaScript validé una tarjeta y dibujé en tiempo real los campos"
-          button="Ir al Proyecto"
+          title="Elaboración de Informes Psicológicos"
+          p="Estrategias innovadoras para elaborar tus informes."
+          button="Obtener Información"
+        ></Card>
+        <Card
+          project="6"
+          title="Psicodiagnóstico Infantil"
+          p="Cómo elaborarlo paso a paso"
+          button="Obtener Información"
+        ></Card>
+        <Card
+          project="7"
+          title="Rol del psicólogo en Instituciones educativas"
+          p="Una oportunidad para reinventarte"
+          button="Obtener Información"
+        ></Card>
+        <Card
+          project="8"
+          title="Dificultades de Aprendizaje: “De la Teoría al Aula”"
+          p="Recursos para comprender e intervenir en dificultades de aprendizaje"
+          button="Obtener Información"
         ></Card>
       </div>
       <div className="gototop"></div>
