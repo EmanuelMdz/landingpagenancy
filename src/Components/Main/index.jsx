@@ -1,9 +1,5 @@
 import React from "react";
 import "./main.css";
-import { useState, useEffect, useRef } from "react";
-import { Link } from "react-scroll";
-import Typed from "typed.js";
-import { motion } from "framer-motion";
 
 export const Main = ({ theme, setTheme }) => {
   /*----------------------------- return ------------------------------  */
@@ -18,7 +14,7 @@ export const Main = ({ theme, setTheme }) => {
         <div className="txt">
           {" "}
           <div className="title_hero">
-            <span className="title_animated">NANCY MORI </span>
+            <span className="title_animated">NANCY MORI</span>
           </div>
           <div className="aboutme_hero">
             <p>
@@ -27,11 +23,7 @@ export const Main = ({ theme, setTheme }) => {
               educación y la salud emocional. Inicié trabajando durante más de
               20 años como maestra de diferentes grados, psicopedagoga y más
               tarde en mi gran pasión, la psicología, en donde he profundizado
-              en diferentes modelos teóricos. Trabajo a nivel clínico
-              individual, grupal y como docente de diferentes formaciones:
-              Psicodiagnóstico, psicología educacional, dificultades de
-              aprendizaje, trauma y Abuso, pareja, familia y trauma, así como
-              trauma en infancias....{" "}
+              en diferentes...{" "}
             </p>
           </div>
         </div>

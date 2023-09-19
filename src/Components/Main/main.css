@@ -22,7 +22,7 @@
   width: 50%;
 }
 .second_hero_container img {
-  width: 500px;
+  width: 30vw;
   margin: auto;
 }
 .title_hero span {
@@ -120,11 +120,6 @@ body.moon .button_nightshift:hover {
     right: 10px;
   }
 }
-@media (max-width: 750px) {
-  .hero_container {
-    margin-top: 135px;
-  }
-}
 
 @media (max-width: 408px) {
   .title_animated {
@@ -149,5 +144,15 @@ body.moon .button_nightshift:hover {
   }
   p {
     font-size: 13px;
+  }
+}
+/* ------------------------MEDIA NUEVA----------------------------------------- */
+@media (max-width: 850px) {
+  .second_hero_container {
+    display: none;
+  }
+  .hero_container {
+    justify-content: center;
+    padding-top: 25%;
   }
 }
