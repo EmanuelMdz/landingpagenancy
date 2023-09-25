@@ -25,6 +25,7 @@
 .card__container {
   width: 250px;
   height: 400px;
+  background-color: rgb(246, 244, 242);
   backdrop-filter: blur(3px);
   border-radius: 15px;
   box-shadow: 5px 5px 10px rgb(180, 180, 180);

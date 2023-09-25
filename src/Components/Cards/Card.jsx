@@ -13,21 +13,24 @@ export const Card = ({ title, p, project, button }) => {
       {/* ---Images---- */}
       <div className="card__image">
         {project == "1" ? (
-          <img src="../images/card1.png" alt="" />
+          <img src="../images/card_traumayabuso.png" alt="" />
         ) : project == "2" ? (
-          <img src="../images/card1.png" alt="" />
+          <img src="../images/card_parejafyt.png" alt="" />
         ) : project == "3" ? (
-          <img src="../images/card1.png" alt="" />
+          <img src="../images/card_infanciasytrauma.png" alt="" />
         ) : project == "4" ? (
-          <img src="../images/card1.png" alt="" />
+          <img
+            src="../images/card_PatologíasPsiquiátricastratamientoFarmacológico.png"
+            alt=""
+          />
         ) : project == "5" ? (
-          <img src="../images/card1.png" alt="" />
+          <img src="../images/card_informes.png" alt="" />
         ) : project == "6" ? (
-          <img src="../images/card1.png" alt="" />
+          <img src="../images/card_PsicodiagnósticoInfantil.png" alt="" />
         ) : project == "7" ? (
-          <img src="../images/card1.png" alt="" />
+          <img src="../images/card_roldelps.png" alt="" />
         ) : project == "8" ? (
-          <img src="../images/card1.png" alt="" />
+          <img src="../images/card_difdeaprend.png" alt="" />
         ) : (
           <div></div>
         )}

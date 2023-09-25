@@ -1,13 +1,17 @@
 .hero_container {
   padding-top: 12%;
+  padding-bottom: 5%;
   display: flex;
   align-items: center;
-  background: linear-gradient(
+  /* background: linear-gradient(
     90deg,
     rgba(2, 0, 36, 1) 0%,
     rgba(235, 182, 255, 1) 0%,
     rgba(227, 121, 255, 1) 100%
-  );
+  ); */
+  background-image: url(../images/background_header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .txt {
   display: flex;
