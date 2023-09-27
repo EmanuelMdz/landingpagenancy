@@ -58,9 +58,11 @@ export const Card = ({ title, p, project, button }) => {
             <button className="card__link">{button}</button>
           </a>
         ) : project == "3" ? (
-          <a href="" target="_blank">
-            <button className="card__link">{button}</button>
-          </a>
+          <Link to={"/cursos"}>
+            <a href="" target="_blank">
+              <button className="card__link">{button}</button>
+            </a>
+          </Link>
         ) : project == "4" ? (
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSf80fDPWfekK1jTde1t4h6W185xHeWmN8PJfv4DE85yWoJfuA/viewform"
@@ -76,17 +78,26 @@ export const Card = ({ title, p, project, button }) => {
             <button className="card__link">{button}</button>
           </a>
         ) : project == "6" ? (
-          <a href="" target="_blank">
-            <button className="card__link">{button}</button>
-          </a>
+          <Link to={"/cursos"}>
+            {" "}
+            <a href="" target="_blank">
+              <button className="card__link">{button}</button>
+            </a>
+          </Link>
         ) : project == "7" ? (
-          <a href="" target="_blank">
-            <button className="card__link">{button}</button>
-          </a>
+          <Link to={"/cursos"}>
+            {" "}
+            <a href="" target="_blank">
+              <button className="card__link">{button}</button>
+            </a>
+          </Link>
         ) : project == "8" ? (
-          <a href="" target="_blank">
-            <button className="card__link">{button}</button>
-          </a>
+          <Link to={"/cursos"}>
+            {" "}
+            <a href="" target="_blank">
+              <button className="card__link">{button}</button>
+            </a>
+          </Link>
         ) : (
           <div></div>
         )}
