@@ -1,0 +1,16 @@
+.cusrsonotfound {
+  margin-top: 20%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.cusrsonotfound h1 {
+  color: rgb(110, 0, 0);
+  margin: auto;
+}
+
+.cusrsonotfound h2 {
+  margin-top: 30%;
+  margin: auto;
+}

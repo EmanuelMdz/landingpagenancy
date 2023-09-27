@@ -1,9 +1,23 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import App from "./App.jsx";
+import { Cursosnotfound } from "./Components/Cursosnotfound";
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "/cursos",
+    element: <Cursosnotfound />,
+  },
+]);
+
+ReactDOM.render(
+  <RouterProvider router={router}>
     <App />
-  </React.StrictMode>
+  </RouterProvider>,
+  document.getElementById("root")
 );

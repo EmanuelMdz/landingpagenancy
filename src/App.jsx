@@ -3,9 +3,8 @@ import { useEffect } from "react";
 import { Navbar } from "./Components/Navbar/index";
 import { Main } from "./Components/Main";
 import { Cards } from "./Components/Cards/Cards";
-import { AboutMe } from "./Components/AboutMe/AboutMe";
 import { Contacto } from "./Components/AboutMe/Contacto";
-import { Tech } from "./Components/Technologies";
+
 import "./App.css";
 
 function App() {
