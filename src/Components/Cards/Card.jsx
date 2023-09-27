@@ -44,7 +44,7 @@ export const Card = ({ title, p, project, button }) => {
           <p>{p}</p>
         </div>
         {project == "1" ? (
-          <a href="https://psiconancymori.info/cursos" target="_blank">
+          <a href="/cursos" target="_blank">
             <button className="card__link">{button}</button>
           </a>
         ) : project == "2" ? (
