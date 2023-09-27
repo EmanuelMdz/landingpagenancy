@@ -1,6 +1,7 @@
 import React from "react";
 import "./card.css";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 export const Card = ({ title, p, project, button }) => {
   return (
     <motion.div
@@ -44,9 +45,11 @@ export const Card = ({ title, p, project, button }) => {
           <p>{p}</p>
         </div>
         {project == "1" ? (
-          <a href="/cursos" target="_blank">
-            <button className="card__link">{button}</button>
-          </a>
+          <Link to={"/cursos"}>
+            <a href="" target="_blank">
+              <button className="card__link">{button}</button>
+            </a>
+          </Link>
         ) : project == "2" ? (
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSdbSZpXB1GTOoZrvbaAmrYtY4pVdnnaZ_edp9w8Sio_pABEAA/viewform"
