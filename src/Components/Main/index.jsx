@@ -30,7 +30,7 @@ export const Main = ({ theme, setTheme }) => {
 
         <a
           className="wpp_btn"
-          href="https://wa.me/+598092901261"
+          href="https://wa.me/+598099265851"
           target="_blank"
         >
           <img src="../images/whatsapp.png" alt="" />

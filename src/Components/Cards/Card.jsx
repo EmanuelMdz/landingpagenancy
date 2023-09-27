@@ -44,38 +44,44 @@ export const Card = ({ title, p, project, button }) => {
           <p>{p}</p>
         </div>
         {project == "1" ? (
-          <a href="https://pokedex-eight-chi.vercel.app/" target="_blank">
+          <a href="" target="_blank">
             <button className="card__link">{button}</button>
           </a>
         ) : project == "2" ? (
           <a
-            href="https://fylo-page-react-vite-emanuel-mendoza.vercel.app/"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdbSZpXB1GTOoZrvbaAmrYtY4pVdnnaZ_edp9w8Sio_pABEAA/viewform"
             target="_blank"
           >
             <button className="card__link">{button}</button>
           </a>
         ) : project == "3" ? (
-          <a href="https://sprint6-flame.vercel.app/" target="_blank">
+          <a href="" target="_blank">
             <button className="card__link">{button}</button>
           </a>
         ) : project == "4" ? (
-          <a href="https://emanuelmdz.github.io/" target="_blank">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSf80fDPWfekK1jTde1t4h6W185xHeWmN8PJfv4DE85yWoJfuA/viewform"
+            target="_blank"
+          >
             <button className="card__link">{button}</button>
           </a>
         ) : project == "5" ? (
-          <a href="https://cardvalidation-i8pc.vercel.app/" target="_blank">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScQTx2fbeluisfqEZK6TJVBRXDXDae5iLWkbW7vQzRbhStWWw/viewform"
+            target="_blank"
+          >
             <button className="card__link">{button}</button>
           </a>
         ) : project == "6" ? (
-          <a href="https://cardvalidation-i8pc.vercel.app/" target="_blank">
+          <a href="" target="_blank">
             <button className="card__link">{button}</button>
           </a>
         ) : project == "7" ? (
-          <a href="https://cardvalidation-i8pc.vercel.app/" target="_blank">
+          <a href="" target="_blank">
             <button className="card__link">{button}</button>
           </a>
         ) : project == "8" ? (
-          <a href="https://cardvalidation-i8pc.vercel.app/" target="_blank">
+          <a href="" target="_blank">
             <button className="card__link">{button}</button>
           </a>
         ) : (
